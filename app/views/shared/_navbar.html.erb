@@ -1,0 +1,217 @@
+<nav class="navbar navbar-expand-lg main-navbar">
+  <form class="form-inline mr-auto">
+    <ul class="navbar-nav mr-3">
+      <li><a href="#" data-toggle="sidebar" class="nav-link nav-link-lg"><i class="fas fa-bars"></i></a></li>
+      <li><a href="#" data-toggle="search" class="nav-link nav-link-lg d-sm-none"><i class="fas fa-search"></i></a></li>
+    </ul>
+    <div class="search-element">
+      <input class="form-control" type="search" placeholder="Search" aria-label="Search" data-width="250">
+      <button class="btn" type="submit"><i class="fas fa-search"></i></button>
+      <div class="search-backdrop"></div>
+      <div class="search-result">
+        <div class="search-header">
+          Histoire
+        </div>
+        <div class="search-item">
+          <a href="#">Comment corriger mon code</a>
+          <a href="#" class="search-close"><i class="fas fa-times"></i></a>
+        </div>
+        <div class="search-item">
+          <a href="#">Fridgefriends.fr</a>
+          <a href="#" class="search-close"><i class="fas fa-times"></i></a>
+        </div>
+        <div class="search-item">
+          <a href="#">#Monapp</a>
+          <a href="#" class="search-close"><i class="fas fa-times"></i></a>
+        </div>
+        <div class="search-header">
+          Result
+        </div>
+        <div class="search-item">
+          <a href="#">
+            <%= image_tag('products/product-3-50.png', width: 30, class: 'mr-3 rounded') %>
+            iPhone X
+          </a>
+        </div>
+        <div class="search-item">
+          <a href="#">
+            <%= image_tag('products/product-2-50.png', width: 30, class: 'mr-3 rounded') %>
+            Fusée
+          </a>
+        </div>
+        <div class="search-item">
+          <a href="#">
+            <%= image_tag('products/product-1-50.png', width: 30, class: 'mr-3 rounded') %>
+            Casque Sony
+          </a>
+        </div>
+        <div class="search-header">
+          Projects
+        </div>
+        <div class="search-item">
+          <a href="#">
+            <div class="search-icon bg-danger text-white mr-3">
+              <i class="fas fa-code"></i>
+            </div>
+            Admin Template
+          </a>
+        </div>
+        <div class="search-item">
+          <a href="#">
+            <div class="search-icon bg-primary text-white mr-3">
+              <i class="fas fa-laptop"></i>
+            </div>
+            Créer un nouveau design pour la page d'accueil
+          </a>
+        </div>
+      </div>
+    </div>
+  </form>
+  <ul class="navbar-nav navbar-right">
+    <li class="dropdown dropdown-list-toggle"><a href="#" data-toggle="dropdown" class="nav-link nav-link-lg message-toggle beep"><i class="far fa-envelope"></i></a>
+      <div class="dropdown-menu dropdown-list dropdown-menu-right">
+        <div class="dropdown-header">Messages
+          <div class="float-right">
+            <a href="#">Tout marquer comme lu</a>
+          </div>
+        </div>
+        <div class="dropdown-list-content dropdown-list-message">
+          <a href="#" class="dropdown-item dropdown-item-unread">
+            <div class="dropdown-item-avatar">
+              <%= image_tag('avatar/avatar-1.png', class: 'rounded-circle') %>
+              <div class="is-online"></div>
+            </div>
+            <div class="dropdown-item-desc">
+              <b>hugo</b>
+              <p>Hello, Bro!</p>
+              <div class="time">il y a 10h</div>
+            </div>
+          </a>
+          <a href="#" class="dropdown-item dropdown-item-unread">
+            <div class="dropdown-item-avatar">
+              <%= image_tag('avatar/avatar-2.png', class: 'rounded-circle') %>
+            </div>
+            <div class="dropdown-item-desc">
+              <b>Doug</b>
+              <p>ta fini</p>
+              <div class="time">il y a 12h</div>
+            </div>
+          </a>
+          <a href="#" class="dropdown-item dropdown-item-unread">
+            <div class="dropdown-item-avatar">
+              <%= image_tag('avatar/avatar-3.png', class: 'rounded-circle') %>
+              <div class="is-online"></div>
+            </div>
+            <div class="dropdown-item-desc">
+              <b>yann</b>
+              <p>oui terminer le controller.</p>
+              <div class="time">il y a 12h</div>
+            </div>
+          </a>
+          <a href="#" class="dropdown-item">
+            <div class="dropdown-item-avatar">
+              <%= image_tag('avatar/avatar-4.png', class: 'rounded-circle') %>
+            </div>
+            <div class="dropdown-item-desc">
+              <b>daph</b>
+              <p>frontend y a du taf</p>
+              <div class="time">il y a 16h</div>
+            </div>
+          </a>
+          <a href="#" class="dropdown-item">
+            <div class="dropdown-item-avatar">
+              <%= image_tag('avatar/avatar-4.png', class: 'rounded-circle') %>
+            </div>
+            <div class="dropdown-item-desc">
+              <b>Zukerberg</b>
+              <p>non recommence</p>
+              <div class="time">Hier</div>
+            </div>
+          </a>
+        </div>
+        <div class="dropdown-footer text-center">
+          <a href="#">Voir tout <i class="fas fa-chevron-right"></i></a>
+        </div>
+      </div>
+    </li>
+    <li class="dropdown dropdown-list-toggle"><a href="#" data-toggle="dropdown" class="nav-link notification-toggle nav-link-lg beep"><i class="far fa-bell"></i></a>
+      <div class="dropdown-menu dropdown-list dropdown-menu-right">
+        <div class="dropdown-header">Notifications
+          <div class="float-right">
+            <a href="#">Marquer tout comme lu</a>
+          </div>
+        </div>
+        <div class="dropdown-list-content dropdown-list-icons">
+          <a href="#" class="dropdown-item dropdown-item-unread">
+            <div class="dropdown-item-icon bg-primary text-white">
+              <i class="fas fa-code"></i>
+            </div>
+            <div class="dropdown-item-desc">
+              Une mise à jours du template est dispo!
+              <div class="time text-primary">2 Min Ago</div>
+            </div>
+          </a>
+          <a href="#" class="dropdown-item">
+            <div class="dropdown-item-icon bg-info text-white">
+              <i class="far fa-user"></i>
+            </div>
+            <div class="dropdown-item-desc">
+              <b>Vous</b> et <b>Doug</b> êtes maintenant amis
+              <div class="time">il y a 10h</div>
+            </div>
+          </a>
+          <a href="#" class="dropdown-item">
+            <div class="dropdown-item-icon bg-success text-white">
+              <i class="fas fa-check"></i>
+            </div>
+            <div class="dropdown-item-desc">
+              <b>Yann</b> a déplacé la tache <b>Fix bug header</b> sur <b>Terminer</b>
+              <div class="time">il y a 12h</div>
+            </div>
+          </a>
+          <a href="#" class="dropdown-item">
+            <div class="dropdown-item-icon bg-danger text-white">
+              <i class="fas fa-exclamation-triangle"></i>
+            </div>
+            <div class="dropdown-item-desc">
+              Espace disque faible, il est temps de nettoyer!
+              <div class="time">il y a 17h</div>
+            </div>
+          </a>
+          <a href="#" class="dropdown-item">
+            <div class="dropdown-item-icon bg-info text-white">
+              <i class="fas fa-bell"></i>
+            </div>
+            <div class="dropdown-item-desc">
+              Bienvenu sur mon template!
+              <div class="time">Hier</div>
+            </div>
+          </a>
+        </div>
+        <div class="dropdown-footer text-center">
+          <a href="#">Voir tout <i class="fas fa-chevron-right"></i></a>
+        </div>
+      </div>
+    </li>
+    <li class="dropdown"><a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg nav-link-user">
+      <%= image_tag('avatar/avatar-1.png', class: 'rounded-circle mr-1') %>
+      <div class="d-sm-none d-lg-inline-block">Salut, johnny</div></a>
+      <div class="dropdown-menu dropdown-menu-right">
+        <div class="dropdown-title">Connecter depuis 5min</div>
+        <a href="features-profile.html" class="dropdown-item has-icon">
+          <i class="far fa-user"></i> Profile
+        </a>
+        <a href="features-activities.html" class="dropdown-item has-icon">
+          <i class="fas fa-bolt"></i> Activités
+        </a>
+        <a href="features-settings.html" class="dropdown-item has-icon">
+          <i class="fas fa-cog"></i> Paramètre
+        </a>
+        <div class="dropdown-divider"></div>
+        <a href="#" class="dropdown-item has-icon text-danger">
+          <i class="fas fa-sign-out-alt"></i> Déconnection
+        </a>
+      </div>
+    </li>
+  </ul>
+</nav>
